@@ -13,6 +13,7 @@ All methods take JSON input and produce JSON output.
 ### GetMessages
 
 The `GetMessages` function takes the following input:
+
     {
       "category": <string>,
       "since": <number>
@@ -21,6 +22,7 @@ The `GetMessages` function takes the following input:
 The method returns all items in the given `category` which have been modified since the unix timestamp given in `since`.
 
 The returned data is an array of items of the form:
+
     {
       "GUID": <string>,
       "Category": <string>,
