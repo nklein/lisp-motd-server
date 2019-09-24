@@ -2,6 +2,8 @@
 CCL := ccl64
 
 SERVER_FILES := \
+	README.md \
+	UNLICENSE \
 	lisp-motd-server.asd \
 	src/package.lisp \
 	src/util.lisp \
